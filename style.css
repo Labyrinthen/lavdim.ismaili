@@ -52,7 +52,7 @@ nav {
   /* Home page */
   
   .homebody {
-    background-image:url(/ProfileWebsite/img/snow.jpg) ;
+    background-image:url(snow.jpg) ;
     background-position-x: center;
     background-position-y: 0%;
     display: flex;
@@ -66,7 +66,7 @@ nav {
   
   
   .aboutbody {
-    background-image: url(/ProfileWebsite/img/Laptop.jpg);
+    background-image: url(Laptop.jpg);
     background-position-x: center;
     background-position-y: 0;
     background-blend-mode: soft-light;
@@ -85,7 +85,7 @@ nav {
   .pic {
     width: 400px;
     height: auto;
-    background: url(/ProfileWebsite/img/CV.Bild.jpg);
+    background: url(CV.Bild.jpg);
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 0;
@@ -119,7 +119,7 @@ nav {
   
   
   .contactbody {
-    background: url(/ProfileWebsite/img/desk.jpg);
+    background: url(desk.jpg);
     background-position-x: 50%;
     background-position-y: 0;
     display: flex;
