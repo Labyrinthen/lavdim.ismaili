@@ -50,7 +50,7 @@ nav {
   
   .homebody {
     background: #333b50;
-    background-image:url(/ProfileWebsite/img/snow.jpg);
+    background-image:url(snow.jpg);
     background-position-x: center;
     background-position-y: 0%;
     display: flex;
@@ -67,7 +67,7 @@ margin-top: 10%;
   
   .aboutbody {
     background: #333b50;
-    background-image: url(/ProfileWebsite/img/Laptop.jpg);
+    background-image: url(Laptop.jpg);
     background-position-x: center;
     background-position-y: 0;
     background-blend-mode: soft-light;
@@ -86,7 +86,7 @@ margin-top: 10%;
   .pic {
     width: 400px;
     height: auto;
-    background: url(/ProfileWebsite/img/CV.Pic.jpg);
+    background: url(CV.Pic.jpg);
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 0;
@@ -121,7 +121,7 @@ margin-top: 10%;
 
 
   .projectbody {
-    background: url(/ProfileWebsite/img/mountain.jpg);
+    background: url(mountain.jpg);
     background-position-x: center;
     background-position-y: 28%;
     display: flex;
@@ -246,7 +246,7 @@ margin-top: 10%;
   
   .contactbody {
     background-color: #333b50;
-    background: url(/ProfileWebsite/img/desk.jpg);
+    background: url(desk.jpg);
     background-position-x: 50%;
     background-position-y: 0;
     display: flex;
