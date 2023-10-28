@@ -19,7 +19,7 @@
 /* Home */
 .home{
     background: #191919 ;
-    height: 750px;
+    height: 900px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@
     font-style: italic;
 }
 .home a{
-    margin-left: 40px;
+    margin-left: 50px;
     font-size: 16px;
 }
 .home h1{
@@ -132,7 +132,7 @@
     padding-top: 10%;
     color: #fff;
     font-family: 'Futura Light', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     font-weight:lighter;
     letter-spacing: 2px;
     line-height:2;
@@ -246,7 +246,7 @@
 
 /* Skills-Languages */
 .skills-languages{
-    height: 600px;
+    height: 700px;
     width: 100%;
 }
 .skills-languages .div1{
