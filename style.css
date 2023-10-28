@@ -1,436 +1,441 @@
+/* Assets */
 
-
-
-
-
-/* Header */
-nav {
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Add this CSS to your existing CSS code */
+.scroll-to-top-button {
+    display: none; /* Initially hide the button */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1000; /* Ensure the button appears above other content */
+    font-size: 50px;
+  }
+  
+/* Home */
+.home{
+    background: #191919 ;
+    height: 750px;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+
+}
+.homenavdiv{
+    height: 10%;
+    width: 100%;
+    display: flex;
     align-items: center;
-    gap: 4.5%;
-  }
-  
-  nav a {
-    color: white;
-    font-family: "Anton", sans-serif;
-    font-size: 60px;
+}
+.homenavdiv a{
+    transition: color 0.4s;
+}
+.homenavdiv a:hover{
+    color: grey;
+}
+
+.home h1, a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 400;
-    text-transform: uppercase;
-    word-wrap: break-word;
-    text-shadow: 2px 2px 4px #333b50;
-    text-decoration: underline;
-  }
-  
-  /* Random */
-  h1 {
-    font-family: "Anton", sans-serif;
-    font-size: 90px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: white;
-    text-align: center;
-    text-shadow: 2px 2px 4px #333b50;
-    margin: 0 0 0 0;
-    letter-spacing: 15.6px;
-  }
-  h2 {
-    font-family: "Anton", sans-serif;
+    font-style: italic;
+}
+.home a{
+    margin-left: 40px;
+    font-size: 16px;
+}
+.home h1{
+    margin-left: 4%;
+    padding-right: 45%;
+    letter-spacing: 4px;
     font-size: 30px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: white;
-    text-align: center;
-    text-shadow: 2px 2px 4px #333b50;
-    letter-spacing: 2px;
-    margin-top: 1%;
-  }
- 
-  /* Home page */
-  
-  .homebody {
-    background: #333b50;
-    background-image:url(snow.jpg);
-    background-position-x: center;
-    background-position-y: 0%;
+}
+
+.pictextdiv{
+    display: flex;
+    height: 90%;
+    width: 100%;
+}
+.pic {
+    height: 100%;
+    width: 75%;
+    background: url(desk1.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Add this property to enable the parallax effect */
+}
+.text{
+    padding-left: 25%;
+    padding-top: 20%;
+}
+.pic h2{
+    color: #fff;
+    font-family: 'Futura Light', sans-serif;
+    font-size: 30px;
+    font-weight:100;
+    letter-spacing: 4px;
+}
+.pic h3{
+    color: #fff;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 60px;
+    font-weight:bold;
+    letter-spacing: 4px;
+    padding-bottom: 10px;
+}
+.pic h4{
+    color: #fff;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 21px;
+    font-style:italic;
+    font-weight:100;
+    letter-spacing: 4px;
+}
+
+.info{
+    height: 100%;
+    width: 25%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-  }
-  .name-title{
-margin-top: 10%;
-  }
-  
-  /* About page */
-  
-  
-  .aboutbody {
-    background: #333b50;
-    background-image: url(Laptop.jpg);
-    background-position-x: center;
-    background-position-y: 0;
-    background-blend-mode: soft-light;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .picandtext {
-    display: flex;
-    width: 600px;
-    height: 500px;
-    gap: 5px;
-    margin-top: .5%;
-  }
-  .pic {
-    width: 400px;
-    height: auto;
-    background: url(CV.Pic.jpg);
+}
+.pic2{
+    margin-top: 30%;
+    background: url(L.jpg);
     background-size: cover;
-    background-position-x: 50%;
-    background-position-y: 0;
-    border-radius: 15px;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #fff; /* Add a border for cleaner edges */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for a cleaner look */
+}
+.home .text2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+.home .text2 h5{
+    color: #fff;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 27px;
+    font-weight:bold;
+}
+.home .text2 h6{
+    padding-top: 10%;
+    color: #fff;
+    font-family: 'Futura Light', sans-serif;
+    font-size: 12px;
+    font-weight:lighter;
+    letter-spacing: 2px;
+    line-height:2;
+}
+.socials{
+    margin-top: 80px;
+    text-align: center;
+}
+.socials h7{
+    color: #fff;
+    font-family: 'Futura Light', sans-serif;
+    font-size: 16px;
+    font-weight:bold;
+    letter-spacing: 2px;
+}
+.socials nav{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.socials a{
+    margin: 0;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+  .socials button {
+    font-family: 'Futura Light', sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+    margin-top: 20px;
+    background-color: white; /* Button background color */
+    color: black; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.7s;
   }
-  .aboutme{
-    font-size: 60px;
-    margin-top: .5%;
+  .socials button:hover {
+    background-color: grey; /* Hover color */
+  }
+
+
+
+/* About */
+.about{
+    height: 350px;
+    width: 100%;
+}
+.about div{
+    padding-top: 5%;
+    padding-left: 15%;
+}
+.about h1{
+    color: 191919;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+}
+.about h2{
+    color: #191919;
+    font-family: 'Futura Light', sans-serif;
+    font-size: 16px;
+    font-weight:lighter;
+    letter-spacing: 4px;
+    padding-top: 5px;
+}
+.about h3{  
+    margin-top: 55px;
+    color: #191919;
+    font-family: 'Futura Light', sans-serif;
+    font-size: 21px;
+    font-weight:lighter;
+    letter-spacing: 4px;
+}
+
+/* Education-Experience */
+.education-experience{
+    background: #191919 ;
+    height: 450px;
+    width: 100%;
+    display: flex;
+}
+.education-experience .text1, .education-experience .text2{
+    padding-top: 5%;
+    padding-left: 15%;
+}
+.education-experience h1{
+    color: #fff;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+}
+.education-experience h2{
+    color: #fff;
+    font-family: 'Futura Light', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    padding-top: 5px;
+}
+.education-experience h3{
+    color: #fff;
+    font-family: 'Futura', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+/* Skills-Languages */
+.skills-languages{
+    height: 600px;
+    width: 100%;
+}
+.skills-languages .div1{
+    padding-top: 5%;
+    padding-left: 15%;
+}
+.skills-languages h1{
+    color: #191919;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+}
+.skills-languages h2{
+    color: #191919;
+    font-family: 'Futura Light', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    padding-top: 5px;
+}
+/* Add this CSS to your existing CSS code */
+.skills-languages .div2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
   }
   
-  .textdiv {
+  .skill {
     display: flex;
-    width: 200px;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  
+  .skill h3 {
+    width: 25%;
+    color: #191919;
+    font-family: 'Futura Light', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+  }
+  
+  .progress {
+    width: 50%;
+    background-color: #ccc;
+    height: 5px;
+  }
+  
+  .progress-bar {
+    background-color: #191919; /* Adjust the color as needed */
+    height: 100%;
+    border-radius: 5px;
+    width: 0;
+  }
+
+/* Portfolio */
+.portfolio{
+    background: #191919 ;
+    height: 750px;
+    width: 100%;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 2%;
-  }
-  
-  .aboutmetext {
-    text-shadow: 1px 5px 5px #333b50;
+}
+.portfolio h1{
+    color: #fff;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 2.5%;
+}
+.portfolio h2{
+    width: 35%;
+    color: #fff;
+    font-family: 'Playfair Display', sans-serif;
     font-size: 20px;
-    letter-spacing: normal;
-  }
-  .aboutmeheader {
-    text-shadow: 1px 5px 5px #333b50;
-    font-size: 35px;
-    letter-spacing: normal;
-  }
-  
-  /* Projects page */
-
-
-  .projectbody {
-    background: url(mountain.jpg);
-    background-position-x: center;
-    background-position-y: 28%;
+    font-weight: bold;
+    padding-top: 1%;
+    text-align: center;
+}
+.portfolio .div1{
+    padding-top: 2.5%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.portfolio .div2{
+    display: flex;
+    height: 90%;
+    width: 100%;
+}
+.p1, .p2, .p3, .p4, .p5, .p6{
+    height: 90%;
+    width: 30%;
+    margin: 1.5% 2.5% 1.5% 2.5%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for a cleaner look */
+    display: flex;
+    flex-direction: column;
     align-items: center;
-  }
-  
-  .projectbody h1{
-    font-size: 60px;
-    margin-top: 2.5%;
-  }
-  
-  .projectsdiv {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1000px;
+}
+
+.portfolio p{
     height: auto;
-    gap: 50px;
-    margin-top: 2%;
-  }
-  .projectboxframe {
-    display: flex;
-    width: 300px;
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 2%;
-  }
-  
-  
-  .projectimg {
+    width: auto;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1%;
+    text-align: center;
+    transition: color 0.4s;
+}
+
+.p1 div{
+    height: 95%;
+    width: 100%;
+    background: url(PortfolioFigmaPic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.p2 div{
+    height: 95%;
+    width: 100%;
+    background: url(database\ pic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* Contact */
+.contact{
     height: 300px;
     width: 100%;
-    border-radius: 15px;
-  }
-  
-  .nameyear {
-    display: flex;
+}
+
+.a{
+    height: 85%;
     width: 100%;
-    height: 10%;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .nameyeartext {
+    display: flex;
+}
+.a .div1{
+    padding-top: 2.5%;
+    padding-left: 15%;
+}
+.a .div3{
+    padding-top: 2.5%;
+}
+.div3 a{
     text-decoration: none;
-    color: white;
-    font-family: "Anton", sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    text-transform: uppercase;
-    word-wrap: break-word;
-    text-shadow: 2px 2px 4px #333b50;
-  }
-  .loginbutton {
-  font-family: "Anton", sans-serif;
-  font-size: 17px; /* Adjust the font size as needed */
-  background-color: #075c90; /* Background color of the button */
-  color: white; /* Text color of the button */
-  padding: 10px 20px; /* Add padding to the button */
-  border: none; /* Remove the button border */
-  border-radius: 5px; /* Add rounded corners */
-  cursor: pointer; /* Change the cursor to a pointer on hover */
-}
-.modifydeletediv {
-  display: flex;
-  width: 100%;
-  height: 10%;
-  justify-content: center;
-  align-items: center;
-}
-.modifydeletetext {
-  font-family: "Anton", sans-serif;
-  font-size: 17px; /* Adjust the font size as needed */
-  background-color: none; /* Background color of the button */
-  background: none;
-  color: white; /* Text color of the button */
-  border: none; /* Remove the button border */
-  border-radius: 5px; /* Add rounded corners */
-  cursor: pointer; /* Change the cursor to a pointer on hover */
-  text-shadow: 2px 2px 4px #333b50;
+    font-size: 25px;
+    padding-right: 5%;
 }
 
-/* Style the submit button on hover */
-.loginbutton:hover {
-  background-color: #555; /* Change the background color on hover */
+.a h1{
+    color: #191919;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
 }
-
-/* PREVIEW PAGE */
-
-.previewpicandtext{
-  display: flex;
-  width: 900px;
-  height: auto;
-  margin-top: 2%;
-  gap: 4%;
-  }
-  .previewpic{
-    height: 450px;
-    width: 48%;
-    border-radius: 15px;
-  }
-  .previewtextdiv{
-    height: 450px;
-    width: 48%;
+.b{
     display: flex;
-    justify-content: center;
     align-items: center;
+    background: #191919;
+    height: 15%;
+    width: 100%;
+}
+.b h3{
+    color: #fff;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    padding-left: 15%;
+}
+.contact button {
+    font-family: 'Futura Light', sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+    background-color: #191919; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px;
+    margin-top: 5%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.7s;
   }
-  .previewtextdiv h2{
-    font-size: 23px;
+  .contact button:hover {
+    background-color: grey; /* Hover color */
   }
-  .backtoproject{
-    margin-top: 1.5%;
-  }
- 
-  
-  /* Contact page */
-  
-  
-  .contactbody {
-    background-color: #333b50;
-    background: url(desk.jpg);
-    background-position-x: 50%;
-    background-position-y: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .contactbody h1{
-    font-size: 70px;
-    margin-top: 5.5%;
-  }
-  .phone,
-  .email {
-    width: 339px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Anton";
-    font-size: 26px;
-    font-weight: 400;
-    text-transform: uppercase;
-    word-wrap: break-word;
-    text-shadow: 2px 2px 4px #333b50;
-    color: white;
-    gap: 20px;
-  }
-  .fblnkdin {
-    width: 339px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Anton";
-    font-size: 50px;
-    font-weight: 400;
-    text-transform: uppercase;
-    word-wrap: break-word;
-    text-shadow: 2px 2px 4px #333b50;
-    color: white;
-    gap: 20px;
-    margin-top: 1%;
-  }
-  .mail {
-    color: white;
-    text-decoration: underline;
-  }
-  nav a:hover,
-  .textdiv a:hover,
-  .mail:hover {
-    color: #049fbe;
-    transition: color 0.4s;
-  }
-
-
-  
-  
-  /* Media query for IPAD */
-  
-  
-  
-  @media (max-width: 1080px) {
-    nav a {
-      font-size: 40px;
-    }
-  
-    h1 {
-      font-size: 80px;
-      letter-spacing: 15.6px;
-    }
-    h2 {
-      font-size: 30px;
-    }
-    .name-title{
-      margin-top: 17%;
-        }
-    .picandtext {
-      flex-direction: column;
-      width: fit-content;
-      height: auto;
-      margin-top: 4%;
-    }
-    .pic {
-      width: 250px;
-      height: 350px;
-    }
-    .textdiv {
-      width: 250px;
-      height: 400px;
-    }
-    .aboutmetext {
-      text-shadow: 1px 5px 5px #333b50;
-      font-size: 17px;
-    }
-    .contactbody h1{
-      font-size: 65px;
-      margin-top: 10%;
-    }
-    .projectbody h1{
-      font-size: 50px;
-      margin-top: 2.5%;
-    }
-    .projectsdiv {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      width: auto;
-      height: auto;
-      gap: 15px;
-      margin-top: 4%;
-    }
-    .projectboxframe {
-      display: flex;
-      width: 200px;
-      height: auto;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 1%;
-    }
-    .projectimg {
-      height: 250px;
-      width: 200px;
-      
-    }
-    .previewpicandtext{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 400;
-      height: auto;
-      }
-      .previewpic{
-        height: 350px;
-        width: 300px;
-      }
-      .previewtextdiv{
-        height: 425px;
-        width: 400px;
-      }
-  }
-  
-  
-  /* Media query for PHONE*/
-  
-  
-  @media (max-width: 500px) {
-    nav a {
-      font-size: 26px;
-    }
-    h1 {
-      font-size: 55px;
-    }
-    h2 {
-      font-size: 20px;
-    }
-    .name-title{
-      margin-top: 25%;
-        }
-        .aboutme{
-          font-size: 35px;
-        }
-        .contactbody h1{
-          font-size: 55px;
-          margin-top: 28%;
-        }
-        .projectbody h1{
-          font-size: 35px;
-          margin-top: 2.5%;
-        }
-        .previewpicandtext{
-          width: auto;
-          height: auto;
-          }
-          .previewpic{
-            height: 250px;
-            width: 230px;
-          }
-          .previewtextdiv{
-            height: 400px;
-            width: 300px;
-            align-items:baseline;
-
-          }
-  }
-  
