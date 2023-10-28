@@ -278,7 +278,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
   
   .skill h3 {
@@ -310,7 +310,10 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+.portfolio .textdiv{
+    padding-left: 15%;
+    padding-top: 5%;
 }
 .portfolio h1{
     color: #fff;
@@ -326,7 +329,6 @@
     font-size: 20px;
     font-weight: bold;
     padding-top: 1%;
-    text-align: center;
 }
 .portfolio .div1{
     padding-top: 2.5%;
