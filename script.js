@@ -51,6 +51,19 @@ function easeInOutQuad(t) {
     });
   });
 
+  // Function to store the scroll position
+  function saveScrollPosition() {
+    sessionStorage.setItem('scrollPosition', window.scrollY);
+  }
+
+  // Function to restore the scroll position
+  function restoreScrollPosition() {
+    const savedPosition = sessionStorage.getItem('scrollPosition');
+    if (savedPosition) {
+      window.scrollTo(0, savedPosition);
+      sessionStorage.removeItem('scrollPosition'); // Remove the stored position
+    }
+  }
   
  
 
