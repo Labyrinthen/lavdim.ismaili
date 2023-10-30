@@ -23,7 +23,6 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-
 }
 .homenavdiv{
     height: 10%;
@@ -62,6 +61,9 @@
     width: 100%;
 }
 .pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     width: 75%;
     background: url(desk1.jpg);
@@ -69,10 +71,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed; /* Add this property to enable the parallax effect */
 }
-.text{
-    padding-left: 30%;
-    padding-top: 22%;
-}
+
 .pic h2{
     color: #fff;
     font-family: 'Futura Light', sans-serif;
@@ -103,9 +102,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .pic2{
-    margin-top: 10%;
     background: url(L.jpg);
     background-size: cover;
     background-position: center;
@@ -184,9 +183,10 @@
 .about{
     height: 300px;
     width: 100%;
+    display: flex;
+    align-items: center;
 }
-.about div{
-    padding-top: 2.5%;
+.about .text{
     padding-left: 10%;
 }
 .about h1{
@@ -220,10 +220,12 @@
     height: 450px;
     width: 100%;
     display: flex;
+    align-items: center;
+    
 }
 .education-experience .text1, .education-experience .text2{
-    padding-top: 2.5%;
     padding-left: 10%;
+    
 }
 .education-experience h1{
     color: #fff;
@@ -239,22 +241,28 @@
     letter-spacing: 4px;
     padding-top: 5px;
 }
+.education-experience .div1{
+    padding-top: 10%;
+    height: 80%;
+}
 .education-experience h3{
     color: #fff;
     font-family: 'Futura Light', sans-serif;
     font-weight: lighter;
     font-size: 16px;
-    padding-top: 10%;
 }
 
 /* Skills-Languages */
 .skills-languages{
-    height: 650px;
+    height: 700px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .skills-languages .div1{
-    padding-top: 2.5%;
     padding-left: 10%;
+    width: 85%;
 }
 .skills-languages h1{
     color: #191919;
@@ -278,15 +286,14 @@
   }
   
   .skill {
-    width: 80%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    padding-bottom: 2%;
+    padding-bottom: 2.5%;
   }
   
   .skill h3 {
-    width: 40%;
+    width: 35%;
     color: #191919;
     font-family: 'Futura Light', sans-serif;
     font-size: 16px;
@@ -295,7 +302,7 @@
   }
   
   .progress {
-    width: 60%;
+    width: 65%;
     background-color: #ccc;
     height: 5px;
   }
@@ -310,21 +317,23 @@
 /* Portfolio */
 .portfolio{
     background: #191919 ;
-    height: 750px;
+    height: 900px;
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 .portfolio .textdiv{
+    height: 30%;
+    display: flex;
     padding-left: 10%;
-    padding-top: 2.5%;
+    flex-direction: column;
+    justify-content: center;
 }
 .portfolio h1{
     color: #fff;
     font-family: 'Playfair Display', sans-serif;
     font-size: 40px;
     font-weight: bold;
-    padding-top: 2.5%;
 }
 .portfolio h2{
     width: 35%;
@@ -335,9 +344,9 @@
     padding-top: 1%;
 }
 .portfolio .div1{
-    padding-top: 2.5%;
     display: flex;
-    height: 100%;
+    align-items: center;
+    height: 70%;
     width: 100%;
 }
 
@@ -385,22 +394,23 @@
     width: 100%;
 }
 
-.a{
+.contact .div1{
     height: 85%;
     width: 100%;
     display: flex;
-}
-.a .div1{
-    padding-top: 2.5%;
+    flex-direction: column;
+    justify-content: center;
     padding-left: 10%;
 }
-.a .div3{
-    padding-top: 2.5%;
+.div3{
+    margin-top: 1%;
 }
+
+
 .div3 a{
     text-decoration: none;
     font-size: 25px;
-    padding-right: 5%;
+    padding-right: 1%;
 }
 
 .a h1{
@@ -430,7 +440,7 @@
     background-color: #191919; /* Button background color */
     color: white; /* Button text color */
     padding: 10px 20px;
-    margin-top: 5%;
+    margin-top: 1%;
     border: none;
     cursor: pointer;
     transition: background-color 0.7s;
@@ -449,6 +459,9 @@
     }
     .home a{
         font-size: 16px;
+    }
+    .pic .text{
+        padding-bottom: 30%;
     }
     .pic h2{
         font-size: 20px;
@@ -563,12 +576,12 @@
     }
     .pic { width: 70%;
     }
+    .pic .text{
+        padding-bottom: 45%;
+    }
     .info{ width: 30%;
     }
-    .text{
-        padding-left: 10%;
-        padding-top: 22%;
-    }
+    
     .pic h2{
         font-size: 16px;
     }
@@ -599,7 +612,7 @@
         font-size: 10px;
       }
     .about{
-        height: 200px;
+        height: 250px;
     }
     .about h1{
         font-size: 20px;
@@ -612,7 +625,7 @@
         font-size: 12px;
     }
     .education-experience{
-        height: 250px;
+        height: 300px;
     }
     .education-experience h1{
         font-size: 20px;
@@ -624,7 +637,7 @@
         font-size: 12px;
     }
     .skills-languages{
-        height: 300px;
+        height: 350px;
     }
     .skills-languages h1{
         font-size: 20px;
@@ -636,9 +649,10 @@
         font-size: 12px;
       }
     .portfolio{
-        height: 650px;
+        height: 750px;
     }
-    .portfolio .div1{ flex-direction: column;
+    .portfolio .div1{ 
+        flex-direction: column;
     }
     .portfolio h1{
         font-size: 20px;
@@ -647,6 +661,7 @@
         font-size: 11px;
     }
     .p1, .p2{
+        padding-left: 0;
         padding-top: 5%;
         height: 200px;
         width: 200px;
@@ -685,31 +700,32 @@
     }
     .home h1{
         padding-left: 3%;
-        padding-right: 10%;
+        padding-right: 5%;
         font-size: 15px;
     }
     .home a{
         font-size: 9px;
     }
     .pic { width: 65%;
+        
+    }
+    .pic .text{
+        padding-bottom: 0;
+        width: 75%;
     }
     .info{ width: 35%;
     }
-    .text{
-        padding-left: 15%;
-        padding-top: 22%;
-    }
     .pic h2{
-        font-size: 10px;
+        font-size: 8px;
+        padding-bottom: 5%;
     }
     .pic h3{
-        font-size: 20px;
+        font-size: 10px;
     }
     .pic h4{
         font-size: 10px;
     }
     .pic2{
-        margin-top: 5%;
         height: 35px;
         width: 35px;
     }
@@ -724,13 +740,14 @@
         padding-top: 8%;
     }
     .socials h7{
-        font-size: 4px;
+        width: 5%;
+        font-size: 8px;
     }
     .socials a{
         font-size: 8px;
     }
     .socials nav{
-        gap: 1px;
+        gap: 3px;
     }
     .socials button {
         font-size: 5px;
@@ -762,7 +779,7 @@
         font-size: 8px;
     }
     .skills-languages{
-        height: 200px;
+        height: 250px;
     }
     .skills-languages h1{
         font-size: 12px;
@@ -777,7 +794,7 @@
         height: 3px;
     }
     .portfolio{
-        height: 525px;
+        height: 650px;
     }
     .portfolio .div1{ flex-direction: column;
     }
