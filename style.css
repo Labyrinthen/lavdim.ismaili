@@ -144,7 +144,7 @@
 .socials h7{
     color: #fff;
     font-family: 'Futura Light', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight:bold;
     letter-spacing: 2px;
 }
@@ -158,13 +158,13 @@
 .socials a{
     margin: 0;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 25px;
 }
 
   .socials button {
     font-family: 'Futura Light', sans-serif;
     font-weight: lighter;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 20px;
     background-color: white; /* Button background color */
     color: #191919; /* Button text color */
@@ -428,7 +428,7 @@
 .contact button {
     font-family: 'Futura Light', sans-serif;
     font-weight: lighter;
-    font-size: 13px;
+    font-size: 20px;
     background-color: #191919; /* Button background color */
     color: white; /* Button text color */
     padding: 10px 20px;
@@ -439,4 +439,15 @@
   }
   .contact button:hover {
     background-color: grey; /* Hover color */
+  }
+
+  @media screen and (max-width: 1200px) {
+    .home h1{
+        padding-left: 5%;
+        padding-right: 26%;
+        font-size: 28px;
+    }
+    .home a{
+        font-size: 18px;
+    }
   }
