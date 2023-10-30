@@ -685,11 +685,11 @@
     }
     .home h1{
         padding-left: 3%;
-        padding-right: 7%;
+        padding-right: 10%;
         font-size: 15px;
     }
     .home a{
-        font-size: 8px;
+        font-size: 9px;
     }
     .pic { width: 65%;
     }
@@ -762,7 +762,7 @@
         font-size: 8px;
     }
     .skills-languages{
-        height: 220px;
+        height: 200px;
     }
     .skills-languages h1{
         font-size: 12px;
