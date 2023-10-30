@@ -46,11 +46,11 @@
     font-style: italic;
 }
 .home a{
-    margin-left: 50px;
+    padding-left: 2.5%;
     font-size: 21px;
 }
 .home h1{
-    padding-left: 15%;
+    padding-left: 10%;
     padding-right: 32%;
     letter-spacing: 4px;
     font-size: 42px;
@@ -112,13 +112,13 @@
     height: 125px;
     width: 125px;
     border-radius: 50%;
-    border: 4px solid #fff; /* Add a border for cleaner edges */
+    border: 2px solid #fff; /* Add a border for cleaner edges */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for a cleaner look */
 }
 .home .text2{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 10%;
     align-items: center;
     text-align: center;
 }
@@ -138,7 +138,7 @@
     line-height:2;
 }
 .socials{
-    margin-top: 80px;
+    padding-top: 20%;
     text-align: center;
 }
 .socials h7{
@@ -149,7 +149,7 @@
     letter-spacing: 2px;
 }
 .socials nav{
-    margin-top: 15px;
+    padding-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,7 +187,7 @@
 }
 .about div{
     padding-top: 2.5%;
-    padding-left: 15%;
+    padding-left: 10%;
 }
 .about h1{
     color: 191919;
@@ -204,7 +204,8 @@
     padding-top: 5px;
 }
 .about h3{  
-    margin-top: 55px;
+    width: 80%;
+    padding-top: 4%;
     color: #191919;
     font-family: 'Futura Light', sans-serif;
     font-size: 21px;
@@ -220,8 +221,8 @@
     display: flex;
 }
 .education-experience .text1, .education-experience .text2{
-    padding-top: 5%;
-    padding-left: 15%;
+    padding-top: 2.5%;
+    padding-left: 10%;
 }
 .education-experience h1{
     color: #fff;
@@ -239,20 +240,20 @@
 }
 .education-experience h3{
     color: #fff;
-    font-family: 'Futura', sans-serif;
+    font-family: 'Futura Light', sans-serif;
     font-weight: lighter;
     font-size: 16px;
-    margin-top: 50px;
+    padding-top: 10%;
 }
 
 /* Skills-Languages */
 .skills-languages{
-    height: 700px;
+    height: 650px;
     width: 100%;
 }
 .skills-languages .div1{
-    padding-top: 5%;
-    padding-left: 15%;
+    padding-top: 2.5%;
+    padding-left: 10%;
 }
 .skills-languages h1{
     color: #191919;
@@ -272,27 +273,28 @@
 .skills-languages .div2 {
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
+    padding-top: 5%;
   }
   
   .skill {
+    width: 80%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 30px;
+    padding-bottom: 2%;
   }
   
   .skill h3 {
-    width: 25%;
+    width: 40%;
     color: #191919;
     font-family: 'Futura Light', sans-serif;
     font-size: 16px;
     font-weight: lighter;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
   }
   
   .progress {
-    width: 50%;
+    width: 60%;
     background-color: #ccc;
     height: 5px;
   }
@@ -313,7 +315,7 @@
     flex-direction: column;
 }
 .portfolio .textdiv{
-    padding-left: 15%;
+    padding-left: 10%;
     padding-top: 2.5%;
 }
 .portfolio h1{
@@ -337,13 +339,9 @@
     height: 100%;
     width: 100%;
 }
-.portfolio .div2{
-    display: flex;
-    height: 90%;
-    width: 100%;
-}
+
 .p1, .p2{
-    padding-left: 15%;
+    padding-left: 10%;
     height: 400px;
     width: 400px;
     display: flex;
@@ -361,7 +359,6 @@
     font-weight: bold;
     padding: 1%;
     text-align: center;
-    transition: color 0.4s;
 }
 
 .p1 div{
@@ -394,7 +391,7 @@
 }
 .a .div1{
     padding-top: 2.5%;
-    padding-left: 15%;
+    padding-left: 10%;
 }
 .a .div3{
     padding-top: 2.5%;
@@ -423,7 +420,7 @@
     font-family: 'Playfair Display', sans-serif;
     font-size: 12px;
     font-weight: lighter;
-    padding-left: 15%;
+    padding-left: 10%;
 }
 .contact button {
     font-family: 'Futura Light', sans-serif;
@@ -442,12 +439,361 @@
   }
 
   @media screen and (max-width: 1200px) {
+    .home{
+        height: 700px;
+    }
     .home h1{
-        padding-left: 5%;
-        padding-right: 26%;
-        font-size: 28px;
+        padding-right: 20%;
+        font-size: 25px;
     }
     .home a{
-        font-size: 18px;
+        font-size: 16px;
     }
+    .pic h2{
+        font-size: 20px;
+    }
+    .pic h3{
+        font-size: 50px;
+    }
+    .pic h4{
+        font-size: 16px;
+    }
+    .pic2{
+        margin-top: 20%;
+        height: 100px;
+        width: 100px;
+    }
+    .home .text2 h5{
+        font-size: 25px;
+    }
+    .home .text2 h6{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .socials h7{
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .socials nav{
+        gap: 10px;
+    }
+    .socials button {
+        font-size: 12px;
+      }
+      .about{
+        height: 200px;
+    }
+    .about h1{
+        font-size: 25px;
+    }
+    .about h2{
+        font-size: 14px;
+        letter-spacing: 4px;
+    }
+    .about h3{ 
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .education-experience{
+        height: 325px;
+    }
+    .education-experience h1{
+        font-size: 25px;
+    }
+    .education-experience h2{
+        font-size: 14px;
+    }
+    .education-experience h3{
+        font-size: 14px;
+    }
+    .skills-languages{
+        height: 475px;
+    }
+    .skills-languages h1{
+        font-size: 25px;
+    }
+    .skills-languages h2{
+        font-size: 14px;
+    }
+    .skill h3 {
+        font-size: 14px;
+      }
+    .portfolio{
+        height: 550px;
+    }
+    .portfolio h1{
+        font-size: 25px;
+    }
+    .portfolio h2{
+        font-size: 16px;
+    }
+    .p1, .p2{
+        height: 300px;
+        width: 300px;
+    }
+    .contact{
+        height: 200px;
+    }
+    .div3 a{
+        font-size: 20px;
+    }
+    .a h1{
+        font-size: 25px;
+    }
+    .contact button {
+        font-size: 16px;
+      }
+    
+  }
+
+
+
+
+
+  @media screen and (max-width: 600px) {
+    .home{
+        height: 500px;
+    }
+    .home h1{
+        padding-right: 7.5%;
+        font-size: 16px;
+    }
+    .home a{
+        font-size: 12px;
+    }
+    .pic { width: 70%;
+    }
+    .info{ width: 30%;
+    }
+    .text{
+        padding-left: 10%;
+        padding-top: 22%;
+    }
+    .pic h2{
+        font-size: 16px;
+    }
+    .pic h3{
+        font-size: 30px;
+    }
+    .pic h4{
+        font-size: 12px;
+    }
+    .pic2{
+        margin-top: 20%;
+        height: 60px;
+        width: 60px;
+    }
+    .home .text2 h5{
+        font-size: 14px;
+    }
+    .home .text2 h6{
+        font-size: 12px;
+    }
+    .socials h7{
+        font-size: 12px;
+    }
+    .socials nav{
+        gap: 6px;
+    }
+    .socials button {
+        font-size: 10px;
+      }
+    .about{
+        height: 200px;
+    }
+    .about h1{
+        font-size: 20px;
+    }
+    .about h2{
+        font-size: 12px;
+        letter-spacing: 4px;
+    }
+    .about h3{ 
+        font-size: 12px;
+    }
+    .education-experience{
+        height: 250px;
+    }
+    .education-experience h1{
+        font-size: 20px;
+    }
+    .education-experience h2{
+        font-size: 12px;
+    }
+    .education-experience h3{
+        font-size: 12px;
+    }
+    .skills-languages{
+        height: 300px;
+    }
+    .skills-languages h1{
+        font-size: 20px;
+    }
+    .skills-languages h2{
+        font-size: 12px;
+    }
+    .skill h3 {
+        font-size: 12px;
+      }
+    .portfolio{
+        height: 650px;
+    }
+    .portfolio .div1{ flex-direction: column;
+    }
+    .portfolio h1{
+        font-size: 20px;
+    }
+    .portfolio h2{
+        font-size: 11px;
+    }
+    .p1, .p2{
+        padding-top: 5%;
+        height: 200px;
+        width: 200px;
+    }
+    .portfolio p{
+        font-size: 12px;
+    }
+    .contact{
+        height: 200px;
+    }
+    .div3 a{
+        font-size: 17px;
+    }
+    .a h1{
+        font-size: 20px;
+    }
+    .contact button {
+        font-size: 14px;
+      }
+      .b h3{
+        font-size: 8px;
+      }
+    
+  }
+
+
+  @media screen and (max-width: 350px) {
+    .home{
+        height: 300px;
+    }
+    .home h1{
+        padding-right: 5%;
+        font-size: 12px;
+    }
+    .home a{
+        font-size: 8px;
+    }
+    .pic { width: 70%;
+    }
+    .info{ width: 30%;
+    }
+    .text{
+        padding-left: 12.5%;
+        padding-top: 22%;
+    }
+    .pic h2{
+        font-size: 10px;
+    }
+    .pic h3{
+        font-size: 20px;
+    }
+    .pic h4{
+        font-size: 10px;
+    }
+    .pic2{
+        margin-top: 20%;
+        height: 40px;
+        width: 40px;
+    }
+    .home .text2 h5{
+        font-size: 10px;
+    }
+    .home .text2 h6{
+        font-size: 7px;
+        letter-spacing: 0px;
+    }
+    .socials h7{
+        font-size: 8px;
+    }
+    .socials nav{
+        gap: 4px;
+    }
+    .socials button {
+        font-size: 8px;
+        padding: 5px 10px;
+      }
+      .about{
+        height: 125px;
+    }
+    .about h1{
+        font-size: 12px;
+    }
+    .about h2{
+        font-size: 8px;
+        letter-spacing: 4px;
+    }
+    .about h3{ 
+        font-size: 8px;
+    }
+    .education-experience{
+        height: 175px;
+    }
+    .education-experience h1{
+        font-size: 12px;
+    }
+    .education-experience h2{
+        font-size: 8px;
+    }
+    .education-experience h3{
+        font-size: 8px;
+    }
+    .skills-languages{
+        height: 200px;
+    }
+    .skills-languages h1{
+        font-size: 12px;
+    }
+    .skills-languages h2{
+        font-size: 8px;
+    }
+    .skill h3 {
+        font-size: 8px;
+      }
+    .progress { 
+        height: 3px;
+    }
+    .portfolio{
+        height: 525px;
+    }
+    .portfolio .div1{ flex-direction: column;
+    }
+    .portfolio h1{
+        font-size: 12px;
+    }
+    .portfolio h2{
+        font-size: 8px;
+    }
+    .p1, .p2{
+        padding-top: 5%;
+        height: 180px;
+        width: 180px;
+    }
+    .portfolio p{
+        font-size: 10px;
+    }
+    .contact{
+        height: 125px;
+    }
+    .div3 a{
+        font-size: 12px;
+    }
+    .a h1{
+        font-size: 15px;
+    }
+    .contact button {
+        font-size: 10px;
+        padding: 5px 10px;
+      }
+    
   }
