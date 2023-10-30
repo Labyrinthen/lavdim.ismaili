@@ -685,11 +685,11 @@
     }
     .home h1{
         padding-left: 3%;
-        padding-right: 3%;
+        padding-right: 2%;
         font-size: 15px;
     }
     .home a{
-        font-size: 10px;
+        font-size: 8px;
     }
     .pic { width: 65%;
     }
@@ -737,7 +737,7 @@
         padding: 4px 8px;
       }
     .about{
-        height: 170px;
+        height: 150px;
     }
     .about h1{
         font-size: 12px;
@@ -750,7 +750,7 @@
         font-size: 8px;
     }
     .education-experience{
-        height: 200px;
+        height: 190px;
     }
     .education-experience h1{
         font-size: 12px;
@@ -762,7 +762,7 @@
         font-size: 8px;
     }
     .skills-languages{
-        height: 230px;
+        height: 250px;
     }
     .skills-languages h1{
         font-size: 12px;
