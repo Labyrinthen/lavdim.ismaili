@@ -105,7 +105,7 @@
     align-items: center;
 }
 .pic2{
-    margin-top: 30%;
+    margin-top: 10%;
     background: url(L.jpg);
     background-size: cover;
     background-position: center;
@@ -165,7 +165,7 @@
     font-family: 'Futura Light', sans-serif;
     font-weight: lighter;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 15%;
     background-color: white; /* Button background color */
     color: #191919; /* Button text color */
     padding: 10px 20px;
@@ -460,7 +460,6 @@
         font-size: 16px;
     }
     .pic2{
-        margin-top: 20%;
         height: 100px;
         width: 100px;
     }
@@ -580,7 +579,6 @@
         font-size: 12px;
     }
     .pic2{
-        margin-top: 20%;
         height: 60px;
         width: 60px;
     }
@@ -678,16 +676,23 @@
     .home{
         height: 275px;
     }
+    .homenavdiv{
+        height: 20%;
+    }
+    .pictextdiv{
+        height: 80%;
+    }
     .home h1{
+        padding-left: 4%;
         padding-right: 5%;
-        font-size: 10px;
+        font-size: 15px;
     }
     .home a{
-        font-size: 7px;
+        font-size: 10px;
     }
-    .pic { width: 70%;
+    .pic { width: 65%;
     }
-    .info{ width: 30%;
+    .info{ width: 35%;
     }
     .text{
         padding-left: 15%;
@@ -703,19 +708,25 @@
         font-size: 10px;
     }
     .pic2{
-        margin-top: 20%;
+        margin-top: 5%;
         height: 35px;
         width: 35px;
     }
     .home .text2 h5{
-        font-size: 8px;
+        font-size: 10px;
     }
     .home .text2 h6{
-        font-size: 5px;
+        font-size: 7px;
         letter-spacing: 0px;
+    }
+    .socials{
+        padding-top: 8%;
     }
     .socials h7{
         font-size: 6px;
+    }
+    .socials a{
+        font-size: 9px;
     }
     .socials nav{
         gap: 1px;
@@ -724,7 +735,7 @@
         font-size: 5px;
         padding: 4px 8px;
       }
-      .about{
+    .about{
         height: 180px;
     }
     .about h1{
