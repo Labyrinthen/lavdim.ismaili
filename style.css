@@ -552,7 +552,7 @@
 
   @media screen and (max-width: 600px) {
     .home{
-        height: 500px;
+        height: 600px;
     }
     .home h1{
         padding-right: 7.5%;
@@ -590,6 +590,7 @@
     }
     .socials h7{
         font-size: 12px;
+        letter-spacing: 0;
     }
     .socials nav{
         gap: 6px;
@@ -683,8 +684,8 @@
         height: 80%;
     }
     .home h1{
-        padding-left: 4%;
-        padding-right: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
         font-size: 15px;
     }
     .home a{
@@ -723,10 +724,10 @@
         padding-top: 8%;
     }
     .socials h7{
-        font-size: 6px;
+        font-size: 5px;
     }
     .socials a{
-        font-size: 9px;
+        font-size: 8px;
     }
     .socials nav{
         gap: 1px;
@@ -736,7 +737,7 @@
         padding: 4px 8px;
       }
     .about{
-        height: 180px;
+        height: 170px;
     }
     .about h1{
         font-size: 12px;
@@ -761,7 +762,7 @@
         font-size: 8px;
     }
     .skills-languages{
-        height: 200px;
+        height: 230px;
     }
     .skills-languages h1{
         font-size: 12px;
