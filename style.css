@@ -673,16 +673,16 @@
   }
 
 
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 400px) {
     .home{
         height: 300px;
     }
     .home h1{
-        padding-right: 3%;
+        padding-right: 8%;
         font-size: 12px;
     }
     .home a{
-        font-size: 7px;
+        font-size: 8px;
     }
     .pic { width: 70%;
     }
@@ -710,7 +710,7 @@
         font-size: 9px;
     }
     .home .text2 h6{
-        font-size: 6px;
+        font-size: 7px;
         letter-spacing: 0px;
     }
     .socials h7{
