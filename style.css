@@ -675,7 +675,7 @@
 
   @media screen and (max-width: 400px) {
     .home{
-        height: 275px;
+        height: 300px;
     }
     .homenavdiv{
         height: 20%;
@@ -685,7 +685,7 @@
     }
     .home h1{
         padding-left: 3%;
-        padding-right: 2%;
+        padding-right: 4%;
         font-size: 15px;
     }
     .home a{
@@ -724,7 +724,7 @@
         padding-top: 8%;
     }
     .socials h7{
-        font-size: 5px;
+        font-size: 4px;
     }
     .socials a{
         font-size: 8px;
@@ -762,7 +762,7 @@
         font-size: 8px;
     }
     .skills-languages{
-        height: 250px;
+        height: 235px;
     }
     .skills-languages h1{
         font-size: 12px;
