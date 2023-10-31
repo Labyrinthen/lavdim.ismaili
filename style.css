@@ -1,5 +1,7 @@
 /* Assets */
-
+body {
+    overflow-x: hidden;
+}
 *{
     margin: 0;
     padding: 0;
@@ -410,7 +412,7 @@
 .div3 a{
     text-decoration: none;
     font-size: 25px;
-    padding-right: 2.5%;
+    padding-right: 2%;
 }
 
 .a h1{
@@ -700,11 +702,11 @@
     }
     .home h1{
         padding-left: 3%;
-        padding-right: 5%;
+        padding-right: 2.5%;
         font-size: 15px;
     }
     .home a{
-        font-size: 9px;
+        font-size: 10px;
     }
     .pic { width: 65%;
     }
@@ -728,10 +730,10 @@
         width: 35px;
     }
     .home .text2 h5{
-        font-size: 10px;
+        font-size: 13px;
     }
     .home .text2 h6{
-        font-size: 7px;
+        font-size: 9.5px;
         letter-spacing: 0px;
     }
     .socials{
@@ -739,54 +741,54 @@
     }
     .socials h7{
         width: 5%;
-        font-size: 8px;
+        font-size: 10px;
     }
     .socials a{
-        font-size: 8px;
+        font-size: 9px;
     }
     .socials nav{
         gap: 10px;
     }
     .socials button {
-        font-size: 5px;
+        font-size: 8px;
         padding: 4px 8px;
       }
     .about{
-        height: 150px;
+        height: 170px;
     }
     .about h1{
-        font-size: 12px;
+        font-size: 14px;
     }
     .about h2{
-        font-size: 8px;
+        font-size: 10px;
         letter-spacing: 4px;
     }
     .about h3{ 
-        font-size: 8px;
+        font-size: 9.5px;
     }
     .education-experience{
-        height: 190px;
+        height: 210px;
     }
     .education-experience h1{
-        font-size: 12px;
+        font-size: 14px;
     }
     .education-experience h2{
-        font-size: 8px;
+        font-size: 10px;
     }
     .education-experience h3{
-        font-size: 8px;
+        font-size: 9.5px;
     }
     .skills-languages{
         height: 250px;
     }
     .skills-languages h1{
-        font-size: 12px;
+        font-size: 14px;
     }
     .skills-languages h2{
-        font-size: 8px;
+        font-size: 10px;
     }
     .skill h3 {
-        font-size: 8px;
+        font-size: 9.5px;
       }
     .progress { 
         height: 3px;
@@ -797,10 +799,10 @@
     .portfolio .div1{ flex-direction: column;
     }
     .portfolio h1{
-        font-size: 12px;
+        font-size: 16px;
     }
     .portfolio h2{
-        font-size: 8px;
+        font-size: 10px;
     }
     .p1, .p2{
         padding-top: 5%;
