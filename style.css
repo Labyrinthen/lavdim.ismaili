@@ -692,7 +692,7 @@ body {
 
   @media screen and (max-width: 400px) {
     .home{
-        height: 400px;
+        height: 600px;
     }
     .homenavdiv{
         height: 20%;
@@ -754,7 +754,7 @@ body {
         padding: 4px 8px;
       }
     .about{
-        height: 200px;
+        height: 300px;
     }
     .about h1{
         font-size: 14px;
@@ -767,7 +767,7 @@ body {
         font-size: 9.5px;
     }
     .education-experience{
-        height: 240px;
+        height: 300px;
     }
     .education-experience h1{
         font-size: 14px;
@@ -779,7 +779,7 @@ body {
         font-size: 9.5px;
     }
     .skills-languages{
-        height: 260px;
+        height: 300px;
     }
     .skills-languages h1{
         font-size: 14px;
