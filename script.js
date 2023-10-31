@@ -64,6 +64,8 @@ function easeInOutQuad(t) {
       sessionStorage.removeItem('scrollPosition'); // Remove the stored position
     }
   }
+
+ 
   
  
 

@@ -17,7 +17,6 @@ body {
     z-index: 1000; /* Ensure the button appears above other content */
     font-size: 40px;
   }
-  
 /* Home */
 .home{
     background: #191919 ;
@@ -31,6 +30,14 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
+}
+.navbar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 35%;
+    gap: 5%;
 }
 .homenavdiv a{
     transition: color 0.4s;
@@ -47,12 +54,10 @@ body {
     font-style: italic;
 }
 .home a{
-    padding-left: 2.5%;
-    font-size: 21px;
+    font-size: 25px;
 }
 .home h1{
     padding-left: 10%;
-    padding-right: 32%;
     letter-spacing: 4px;
     font-size: 42px;
 }
@@ -456,7 +461,6 @@ body {
         height: 700px;
     }
     .home h1{
-        padding-right: 20%;
         font-size: 25px;
     }
     .home a{
@@ -566,12 +570,15 @@ body {
 
 
   @media screen and (max-width: 600px) {
+    
     .home{
         height: 600px;
     }
     .home h1{
-        padding-right: 7.5%;
         font-size: 16px;
+    }
+    .navbar{
+        padding-left: 10%;
     }
     .home a{
         font-size: 12px;
@@ -702,8 +709,10 @@ body {
     }
     .home h1{
         padding-left: 3%;
-        padding-right: 2.5%;
         font-size: 15px;
+    }
+    .navbar{
+        padding-left: 3%;
     }
     .home a{
         font-size: 10px;
