@@ -464,9 +464,7 @@
     .home a{
         font-size: 16px;
     }
-    .pic .text{
-        padding-bottom: 30%;
-    }
+    
     .pic h2{
         font-size: 20px;
     }
@@ -597,10 +595,6 @@
     .pic { 
         height: 40%;
         width: 100%;
-        background-size: auto;
-    }
-    .pic .text{
-        padding-bottom: 30%;
     }
     .info{ 
         width: 100%;
@@ -742,10 +736,10 @@
     .homenavdiv{
         flex-direction: column;
         justify-content: center;
-        height: 15%;
+        height: 10%;
     }
     .pictextdiv{
-        height: 85%;
+        height: 80%;
         flex-direction: column;
     }
     .home h1{
@@ -760,16 +754,12 @@
         width: 90%;
     }
     .home a{
-        font-size: 13px;
+        font-size: 11px;
     }
     .pic { 
         height: 40%;
         width: 100%;
-        background-size: auto;
         background-position-y: 10%;
-    }
-    .pic .text{
-        padding-bottom: 30%;
     }
     
     .info{ 
