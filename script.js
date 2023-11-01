@@ -65,7 +65,25 @@ function easeInOutQuad(t) {
     }
   }
 
- 
+  document.getElementById("menuToggle").addEventListener("click", function () {
+    // Toggle the class "active" to show/hide the navigation menu
+    document.getElementById("menuToggle").classList.toggle("active");
+  });
+
+  // Add an event listener to the close button
+  document.getElementById("closeNav").addEventListener("click", function () {
+    document.getElementById("menuToggle").classList.remove("active");
+  });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.getElementById("menuToggle");
+    const navMenu = document.querySelector(".navmenu");
+
+    menuToggle.addEventListener("click", function () {
+        navMenu.classList.toggle("active");
+    });
+});
+
   
  
 

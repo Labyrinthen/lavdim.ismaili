@@ -246,7 +246,7 @@
     padding-top: 5px;
 }
 .education-experience .div1{
-    padding-top: 10%;
+    padding-top: 5%;
     height: 80%;
 }
 .education-experience h3{
@@ -409,18 +409,16 @@
 .div3{
     margin-top: 1%;
 }
-
-
 .div3 a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     padding-right: 2%;
 }
 
-.a h1{
+.div1 h1{
     color: #191919;
     font-family: 'Playfair Display', sans-serif;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: lighter;
 }
 .b{
@@ -433,7 +431,7 @@
 .b h3{
     color: #fff;
     font-family: 'Playfair Display', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: lighter;
     padding-left: 10%;
 }
@@ -454,9 +452,6 @@
   }
 
   @media screen and (max-width: 1200px) {
-    .home{
-        height: 700px;
-    }
     .home h1{
         font-size: 25px;
     }
@@ -567,128 +562,175 @@
 
 
   @media screen and (max-width: 600px) {
-    
     .home{
-        height: 600px;
+        height: 1000px;
+    }
+    .homenavdiv{
+        flex-direction: column;
+        justify-content: center;
+        height: 15%;
+    }
+    .pictextdiv{
+        height: 85%;
+        flex-direction: column;
     }
     .home h1{
-        font-size: 16px;
+        font-size: 36px;
+        height: auto;
+        padding: 0;
     }
     .navbar{
-        padding-left: 10%;
+        padding: 0;
+        justify-content: center;
+        height: 40%;
+        width: 90%;
     }
     .home a{
-        font-size: 12px;
+        font-size: 18px;
     }
-    .pic { width: 70%;
+    .pic { 
+        height: 40%;
+        width: 100%;
+        background-size: auto;
     }
     .pic .text{
-        padding-bottom: 45%;
+        padding-bottom: 30%;
     }
-    .info{ width: 30%;
+    
+    .info{ 
+        width: 100%;
+        height: 60%;
+    }
+    .infodiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .pic h2{
-        font-size: 16px;
+        font-size: 18px;
     }
     .pic h3{
-        font-size: 30px;
+        font-size: 36px;
     }
     .pic h4{
-        font-size: 12px;
-    }
-    .pic2{
-        height: 60px;
-        width: 60px;
-    }
-    .home .text2 h5{
         font-size: 14px;
     }
+    .pic2{
+        height: 100px;
+        width: 100px;
+    }
+    .home .text2 h5{
+        font-size: 26px;
+    }
     .home .text2 h6{
-        font-size: 12px;
+        font-size: 16px;
     }
     .socials h7{
-        font-size: 12px;
-        letter-spacing: 0;
+        display: none;
+    }
+    .socials{
+        padding-top: 7.5%;
     }
     .socials nav{
-        gap: 6px;
+        gap: 15px;
+        padding: 0;
+    }
+    .socials nav a{
+        font-size: 26px;
     }
     .socials button {
-        font-size: 10px;
+        font-size: 20px;
+        padding: 5px 10px;
       }
     .about{
-        height: 250px;
+        height: 300px;
     }
     .about h1{
-        font-size: 20px;
+        font-size: 26px;
     }
     .about h2{
-        font-size: 12px;
+        font-size: 16px;
         letter-spacing: 4px;
     }
     .about h3{ 
-        font-size: 12px;
+        font-size: 16px;
     }
     .education-experience{
-        height: 300px;
+        height: 500px;
+        align-items: normal;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5%;
+    }
+    .education-experience .div1{
+        height: 100%;
     }
     .education-experience h1{
-        font-size: 20px;
+        font-size: 26px;
     }
     .education-experience h2{
-        font-size: 12px;
+        font-size: 16px;
     }
     .education-experience h3{
-        font-size: 12px;
+        font-size: 16px;
     }
     .skills-languages{
-        height: 350px;
+        height: 450px;
     }
     .skills-languages h1{
-        font-size: 20px;
+        font-size: 26px;
     }
     .skills-languages h2{
-        font-size: 12px;
+        font-size: 16px;
     }
     .skill h3 {
-        font-size: 12px;
+        width: 50%;
+      }
+      .progress {
+        width: 50%;
+      }
+    .skill h3 {
+        font-size: 16px;
       }
     .portfolio{
-        height: 750px;
+        height: 800px;
     }
     .portfolio .div1{ 
         flex-direction: column;
     }
     .portfolio h1{
-        font-size: 20px;
+        font-size: 26px;
     }
     .portfolio h2{
-        font-size: 11px;
+        font-size: 16px;
+        width: 60%;
     }
     .p1, .p2{
         padding-left: 0;
         padding-top: 5%;
-        height: 200px;
-        width: 200px;
+        height: 225px;
+        width: 225px;
     }
     .portfolio p{
-        font-size: 12px;
+        font-size: 16px;
     }
     .contact{
         height: 200px;
     }
+    
     .div3 a{
-        font-size: 17px;
+        font-size: 23px;
+        padding-right: 2%;
     }
-    .a h1{
-        font-size: 20px;
+    .div1 h1{
+        font-size: 23px;
     }
     .contact button {
-        font-size: 14px;
+        font-size: 16px;
       }
       .b h3{
-        font-size: 8px;
+        font-size: 12px;
       }
     
   }
@@ -696,138 +738,162 @@
 
   @media screen and (max-width: 400px) {
     .home{
-        height: 600px;
+        height: 1000px;
     }
     .homenavdiv{
-        height: 10%;
+        flex-direction: column;
+        justify-content: center;
+        height: 15%;
     }
     .pictextdiv{
-        height: 90%;
+        height: 85%;
+        flex-direction: column;
     }
     .home h1{
-        padding-left: 3%;
-        font-size: 15px;
+        font-size: 32px;
+        height: auto;
+        padding: 0;
     }
     .navbar{
-        padding-left: 3%;
+        padding: 0;
+        justify-content: center;
+        height: 40%;
+        width: 90%;
     }
     .home a{
-        font-size: 10px;
-    }
-    .pic { width: 65%;
-    }
-    .pic .text{
-        padding-bottom: 0%;
-    }
-    .info{ width: 35%;
-    }
-    .pic h2{
-        font-size: 10px;
-    }
-    .pic h3{
-        font-size: 20px;
-    }
-    .pic h4{
-        font-size: 12px;
-        letter-spacing: 1px;
-    }
-    .pic2{
-        height: 35px;
-        width: 35px;
-    }
-    .home .text2 h5{
         font-size: 13px;
     }
-    .home .text2 h6{
-        font-size: 9.5px;
-        letter-spacing: 0px;
+    .pic { 
+        height: 40%;
+        width: 100%;
+        background-size: auto;
+        background-position-y: 10%;
     }
-    .socials{
-        padding-top: 8%;
+    .pic .text{
+        padding-bottom: 30%;
+    }
+    
+    .info{ 
+        width: 100%;
+        height: 60%;
+    }
+    .infodiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .pic h2{
+        font-size: 18px;
+    }
+    .pic h3{
+        font-size: 36px;
+    }
+    .pic h4{
+        font-size: 14px;
+    }
+    .pic2{
+        height: 100px;
+        width: 100px;
+    }
+    .home .text2 h5{
+        font-size: 26px;
+    }
+    .home .text2 h6{
+        font-size: 16px;
     }
     .socials h7{
-        width: 5%;
-        font-size: 14px;
+        display: none;
     }
-    .socials a{
-        font-size: 12px;
+    .socials{
+        padding-top: 7.5%;
     }
     .socials nav{
-        gap: 9px;
+        gap: 15px;
+        padding: 0;
+    }
+    .socials nav a{
+        font-size: 26px;
     }
     .socials button {
-        font-size: 8px;
-        padding: 4px 8px;
+        font-size: 20px;
+        padding: 5px 10px;
       }
     .about{
-        height: 300px;
+        height: 400px;
     }
     .about h1{
-        font-size: 14px;
+        font-size: 26px;
     }
     .about h2{
-        font-size: 10px;
+        font-size: 16px;
         letter-spacing: 4px;
     }
     .about h3{ 
-        font-size: 9.5px;
-    }
-    .education-experience{
-        height: 300px;
-    }
-    .education-experience h1{
-        font-size: 14px;
-    }
-    .education-experience h2{
-        font-size: 10px;
-    }
-    .education-experience h3{
-        font-size: 9.5px;
-    }
-    .skills-languages{
-        height: 300px;
-    }
-    .skills-languages h1{
-        font-size: 14px;
-    }
-    .skills-languages h2{
-        font-size: 10px;
-    }
-    .skill h3 {
-        font-size: 9.5px;
-      }
-    .progress { 
-        height: 3px;
-    }
-    .portfolio{
-        height: 620px;
-    }
-    .portfolio .div1{ flex-direction: column;
-    }
-    .portfolio h1{
         font-size: 16px;
     }
+    .education-experience{
+        height: 500px;
+    }
+    .education-experience h1{
+        font-size: 26px;
+    }
+    .education-experience h2{
+        font-size: 16px;
+    }
+    .education-experience h3{
+        font-size: 16px;
+    }
+    .skills-languages{
+        height: 450px;
+    }
+    .skills-languages h1{
+        font-size: 26px;
+    }
+    .skills-languages h2{
+        font-size: 16px;
+    }
+    .skill h3 {
+        font-size: 16px;
+      }
+    .portfolio{
+        height: 800px;
+    }
+    .portfolio .div1{ 
+        flex-direction: column;
+    }
+    .portfolio h1{
+        font-size: 26px;
+    }
     .portfolio h2{
-        font-size: 10px;
+        font-size: 16px;
+        width: 60%;
     }
     .p1, .p2{
+        padding-left: 0;
         padding-top: 5%;
-        height: 180px;
-        width: 180px;
+        height: 225px;
+        width: 225px;
     }
     .portfolio p{
-        font-size: 10px;
+        font-size: 16px;
     }
     .contact{
-        height: 160px;
+        height: 200px;
     }
+    
     .div3 a{
-        font-size: 18px;
+        font-size: 23px;
+        padding-right: 2%;
+    }
+    .div1 h1{
+        font-size: 23px;
     }
     .contact button {
+        font-size: 16px;
+      }
+      .b h3{
         font-size: 12px;
-        padding: 5px 10px;
-        margin-top: 2.5%;
       }
     
   }
