@@ -58,6 +58,11 @@
     letter-spacing: 4px;
     font-size: 42px;
 }
+.infodiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .pictextdiv{
     display: flex;
@@ -601,11 +606,7 @@
         width: 100%;
         height: 60%;
     }
-    .infodiv{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    
     
     .pic h2{
         font-size: 18px;
