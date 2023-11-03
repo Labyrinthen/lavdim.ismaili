@@ -76,8 +76,7 @@
     align-items: center;
     height: 100%;
     width: 75%;
-    background: url(desk1.jpg);
-    background-size: cover;
+    background: url(desk1.svg);
     background-repeat: no-repeat;
     background-attachment: fixed; /* Add this property to enable the parallax effect */
 }
@@ -115,9 +114,8 @@
     justify-content: center;
 }
 .pic2{
-    background: url(L.jpg);
+    background: url(1.jpg);
     background-size: cover;
-    background-position: center;
     height: 125px;
     width: 125px;
     border-radius: 50%;
@@ -595,7 +593,11 @@
     .pic { 
         height: 40%;
         width: 100%;
-    }
+        background: url(desk1\ mobile.svg);
+        background-size: cover;
+        background-position-x: 70%;
+        background-attachment: scroll; /* Add this property to enable the parallax effect */
+}
     .info{ 
         width: 100%;
         height: 60%;
@@ -626,7 +628,7 @@
         padding-top: 7.5%;
     }
     .socials nav{
-        gap: 15px;
+        gap: 25px;
         padding: 0;
     }
     .socials nav a{
@@ -714,7 +716,7 @@
     
     .div3 a{
         font-size: 23px;
-        padding-right: 2%;
+        padding-right: 25px;
     }
     .div1 h1{
         font-size: 23px;
@@ -725,7 +727,6 @@
       .b h3{
         font-size: 12px;
       }
-    
   }
 
 
@@ -754,12 +755,12 @@
         width: 90%;
     }
     .home a{
-        font-size: 11px;
+        font-size: 12.5px;
     }
     .pic { 
         height: 40%;
         width: 100%;
-        background-position-y: 10%;
+        
     }
     
     .info{ 
@@ -798,7 +799,7 @@
         padding-top: 7.5%;
     }
     .socials nav{
-        gap: 15px;
+        gap: 25px;
         padding: 0;
     }
     .socials nav a{
@@ -873,7 +874,7 @@
     
     .div3 a{
         font-size: 23px;
-        padding-right: 2%;
+        padding-right: 25px;
     }
     .div1 h1{
         font-size: 23px;
