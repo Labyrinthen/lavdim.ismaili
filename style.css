@@ -76,7 +76,7 @@
     align-items: center;
     height: 100%;
     width: 75%;
-    background: url(desk1.svg);
+    background: url(desk1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Add this property to enable the parallax effect */
@@ -326,16 +326,16 @@
 /* Portfolio */
 .portfolio{
     background: #191919 ;
-    height: 750px;
+    height: 1000px;
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 .portfolio .textdiv{
-    height: 30%;
+    height: 40%;
     display: flex;
-    padding-left: 10%;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 .portfolio h1{
@@ -343,6 +343,7 @@
     font-family: 'Playfair Display', sans-serif;
     font-size: 40px;
     font-weight: bold;
+    text-align: center;
 }
 .portfolio h2{
     width: 35%;
@@ -351,18 +352,21 @@
     font-size: 20px;
     font-weight: bold;
     padding-top: 1%;
+    text-align: center;
 }
 .portfolio .div1{
     display: flex;
     align-items: center;
-    height: 70%;
-    width: 100%;
+    height: 60%;
+    width: 95%;
+    gap: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
 }
 
-.p1, .p2{
-    padding-left: 10%;
-    height: 400px;
-    width: 400px;
+.p1, .p2, .p3{
+    height: 500px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -374,7 +378,7 @@
     text-decoration: none;
     color: #fff;
     font-family: 'Playfair Display', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     padding: 1%;
     text-align: center;
@@ -391,6 +395,13 @@
     height: 95%;
     width: 100%;
     background: url(database\ pic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.p3 div{
+    height: 95%;
+    width: 100%;
+    background: url(connectFour.png);
     background-size: cover;
     background-position: center;
 }
@@ -541,7 +552,7 @@
     .portfolio h2{
         font-size: 16px;
     }
-    .p1, .p2{
+    .p1, .p2, .p3{
         height: 300px;
         width: 300px;
     }
@@ -690,10 +701,41 @@
         font-size: 16px;
       }
     .portfolio{
-        height: 800px;
+        height: 1200px;
     }
     .portfolio .div1{ 
         flex-direction: column;
+    }
+    .portfolio{
+        background: #191919 ;
+        height: 1500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio .textdiv{
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .portfolio h1{
+        color: #fff;
+        font-family: 'Playfair Display', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .portfolio .div1{
+        display: flex;
+        align-items: center;
+        height: 80%;
+        width: 95%;
+        gap: 2.5%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
     }
     .portfolio h1{
         font-size: 26px;
@@ -702,11 +744,10 @@
         font-size: 16px;
         width: 60%;
     }
-    .p1, .p2{
+    .p1, .p2, .p3{
         padding-left: 0;
-        padding-top: 5%;
-        height: 225px;
-        width: 225px;
+        height: 350px;
+        width: 300px;
     }
     .portfolio p{
         font-size: 16px;
@@ -847,24 +888,14 @@
     .skill h3 {
         font-size: 16px;
       }
-    .portfolio{
-        height: 800px;
-    }
-    .portfolio .div1{ 
-        flex-direction: column;
-    }
+    
+    
     .portfolio h1{
         font-size: 26px;
     }
     .portfolio h2{
         font-size: 16px;
         width: 60%;
-    }
-    .p1, .p2{
-        padding-left: 0;
-        padding-top: 5%;
-        height: 225px;
-        width: 225px;
     }
     .portfolio p{
         font-size: 16px;
