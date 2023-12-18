@@ -263,7 +263,7 @@
 
 /* Skills-Languages */
 .skills-languages{
-    height: 700px;
+    height: 900px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -298,11 +298,11 @@
     width: 100%;
     display: flex;
     align-items: center;
-    padding-bottom: 2.5%;
+    padding-bottom: 3.5%;
   }
   
   .skill h3 {
-    width: 35%;
+    width: 30%;
     color: #191919;
     font-family: 'Futura Light', sans-serif;
     font-size: 16px;
@@ -311,7 +311,7 @@
   }
   
   .progress {
-    width: 65%;
+    width: 70%;
     background-color: #ccc;
     height: 5px;
   }
@@ -683,7 +683,7 @@
         font-size: 16px;
     }
     .skills-languages{
-        height: 450px;
+        height: 650px;
     }
     .skills-languages h1{
         font-size: 26px;
@@ -691,6 +691,11 @@
     .skills-languages h2{
         font-size: 16px;
     }
+    .skills-languages .div2 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 9%;
+      }
     .skill h3 {
         width: 50%;
       }
@@ -877,7 +882,7 @@
         font-size: 16px;
     }
     .skills-languages{
-        height: 450px;
+        height: 550px;
     }
     .skills-languages h1{
         font-size: 26px;
@@ -885,11 +890,18 @@
     .skills-languages h2{
         font-size: 16px;
     }
-    .skill h3 {
-        font-size: 16px;
+    .skill{
+        padding-bottom: 5%;
+    }
+    .progress {
+        width: 40%;
+        background-color: #ccc;
+        height: 5px;
       }
-    
-    
+    .skill h3 {
+        font-size: 13px;
+        width: 60%;
+      }
     .portfolio h1{
         font-size: 26px;
     }
