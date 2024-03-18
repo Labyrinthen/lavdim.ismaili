@@ -263,7 +263,7 @@
 
 /* Skills-Languages */
 .skills-languages{
-    height: 900px;
+    height: 1000px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -326,13 +326,14 @@
 /* Portfolio */
 .portfolio{
     background: #191919 ;
-    height: 1800px;
+    height: 3000px;
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 8vw;
 }
 .portfolio .textdiv{
-    height: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -357,7 +358,7 @@
 .portfolio .div2{
     display: flex;
     flex-direction: column;
-    height: 80%;
+    gap: 5vw;
 }
 .portfolio .div1{
     display: flex;
@@ -367,9 +368,9 @@
     gap: 2.5%;
 }
 
-.p1, .p2, .p3, .p4{
-    height: 650px;
-    width: 650px;
+.p1, .p2, .p3, .p4, .p5, .p6{
+    height: 750px;
+    width: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -412,6 +413,20 @@
     height: 95%;
     width: 100%;
     background: url(NotesAppPic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.p5 div{
+    height: 95%;
+    width: 100%;
+    background: url(weather.png);
+    background-size: cover;
+    background-position: center;
+}
+.p6 div{
+    height: 95%;
+    width: 100%;
+    background: url(WiseWordsApp.png);
     background-size: cover;
     background-position: center;
 }
