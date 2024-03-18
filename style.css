@@ -76,7 +76,7 @@
     align-items: center;
     height: 100%;
     width: 75%;
-    background: url(desk1.jpg);
+    background: url(/images/desk1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Add this property to enable the parallax effect */
