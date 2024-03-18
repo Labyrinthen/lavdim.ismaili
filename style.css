@@ -115,7 +115,7 @@
     justify-content: center;
 }
 .pic2{
-    background: url(1.jpg);
+    background: url(/images/1.jpg);
     background-size: cover;
     height: 125px;
     width: 125px;
@@ -391,42 +391,42 @@
 .p1 div{
     height: 95%;
     width: 100%;
-    background: url(PortfolioFigmaPic.jpg);
+    background: url(/images/PortfolioFigmaPic.jpg);
     background-size: cover;
     background-position: center;
 }
 .p2 div{
     height: 95%;
     width: 100%;
-    background: url(database\ pic.jpg);
+    background: url(/images/database\ pic.jpg);
     background-size: cover;
     background-position: center;
 }
 .p3 div{
     height: 95%;
     width: 100%;
-    background: url(connectFour.png);
+    background: url(/images/connectFour.png);
     background-size: cover;
     background-position: center;
 }
 .p4 div{
     height: 95%;
     width: 100%;
-    background: url(NotesAppPic.jpg);
+    background: url(/images/NotesAppPic.jpg);
     background-size: cover;
     background-position: center;
 }
 .p5 div{
     height: 95%;
     width: 100%;
-    background: url(weather.png);
+    background: url(/images/weather.png);
     background-size: cover;
     background-position: center;
 }
 .p6 div{
     height: 95%;
     width: 100%;
-    background: url(WiseWordsApp.png);
+    background: url(/images/WiseWordsApp.png);
     background-size: cover;
     background-position: center;
 }
@@ -630,7 +630,7 @@
     .pic { 
         height: 40%;
         width: 100%;
-        background: url(desk1\ mobile.svg);
+        background: url(/images/desk1\ mobile.svg);
         background-size: cover;
         background-position-x: 70%;
         background-attachment: scroll; /* Add this property to enable the parallax effect */
