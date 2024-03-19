@@ -7,12 +7,12 @@
 .scroll-to-top-button {
     display: none; /* Initially hide the button */
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 20px;
+    right: 40px;
     border: none;
     cursor: pointer;
     z-index: 1000; /* Ensure the button appears above other content */
-    font-size: 40px;
+    font-size: 56px;
   }
 /* Home */
 .home{
@@ -326,7 +326,7 @@
 /* Portfolio */
 .portfolio{
     background: #191919 ;
-    height: 3000px;
+    height: 2600px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -369,8 +369,8 @@
 }
 
 .p1, .p2, .p3, .p4, .p5, .p6{
-    height: 750px;
-    width: 700px;
+    height: 650px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -569,7 +569,7 @@
         font-size: 14px;
       }
     .portfolio{
-        height: 1400px;
+        height: 1800px;
     }
     .portfolio h1{
         font-size: 25px;
@@ -577,7 +577,7 @@
     .portfolio h2{
         font-size: 16px;
     }
-    .p1, .p2, .p3, .p4{
+    .p1, .p2, .p3, .p4, .p5, .p6{
         height: 400px;
         width: 400px;
     }
@@ -736,7 +736,7 @@
     }
     .portfolio{
         background: #191919 ;
-        height: 2000px;
+        height: 2600px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -772,7 +772,7 @@
         font-size: 16px;
         width: 60%;
     }
-    .p1, .p2, .p3, .p4{
+    .p1, .p2, .p3, .p4, .p5, .p6{
         height: 350px;
         width: 300px;
     }
